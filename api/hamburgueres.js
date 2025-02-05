@@ -13,7 +13,7 @@ export default function handler(req, res) {
       "name": "Hamburguer Smash",
       "description": "Smash suculento com carne 100% angus, queijo derretido, salada, cebola caramelizada e molho especial. Simples e irresistível! 🍔🔥",
       "price": 15.00,
-      "image": "/src/assets/hamb1.png" // Corrigido caminho da imagem
+      "image": "/assets/hamb1.png" 
     },
     {
       "id": 2,
