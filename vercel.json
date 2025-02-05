@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/**/*.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    { "src": "/api/hamburgueres", "dest": "/api/hamburgueres.js" },
+    { "src": "/api/bebidas", "dest": "/api/bebidas.js" }
+  ]
+}
